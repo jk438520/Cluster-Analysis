@@ -15,7 +15,7 @@ jobs:
       - run:
           name: download model binaries # requires external binaries
           command: |
-            apt-get install wget
+            sudo apt-get install wget
             wget https://github.com/eyaler/word2vec-slim/raw/master/GoogleNews-vectors-negative300-SLIM.bin.gz
             gzip -d GoogleNews-vectors-negative300-SLIM.bin.gz
       - run:
