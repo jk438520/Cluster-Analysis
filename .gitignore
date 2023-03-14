@@ -7,3 +7,4 @@ results/*
 mallet_temp
 code/__pycache__
 .venv
+GoogleNews-vectors-negative300-SLIM.bin
