@@ -5,3 +5,5 @@ embeds/
 logs/*
 results/*
 mallet_temp
+code/__pycache__
+.venv
