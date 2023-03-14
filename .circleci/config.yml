@@ -20,7 +20,7 @@ jobs:
             gzip -d GoogleNews-vectors-negative300-SLIM.bin.gz
       - run:
           name: test algorithm # run with minimal scope
-          command: python3 code/score.py --clustering_algo KMeans --vocab english_dict.txt --entities word2vec
+          command: python3 code/score.py --clustering_algo KMeans --vocab vocab.txt --entities word2vec
 
 workflows:
   build_and_test:
